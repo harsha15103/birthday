@@ -56,22 +56,7 @@
         <div class="cake">🎂</div>
         <button class="btn" onclick="alert('Have an amazing birthday, Madamji! 🎈🎊')">Click for a Surprise!</button>
         
-        <!-- Background Music -->
-        <audio id="birthdaySong" autoplay>
-            <source src="your-audio-file.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        
-        <script>
-            const audio = document.getElementById("birthdaySong");
-            audio.currentTime = 31; // Start at 31 seconds
-            
-            audio.addEventListener("timeupdate", function() {
-                if (audio.currentTime >= 60) { // Stop at 1 minute
-                    audio.pause();
-                }
-            });
-        </script>
+     
     </div>
 </body>
 </html>
